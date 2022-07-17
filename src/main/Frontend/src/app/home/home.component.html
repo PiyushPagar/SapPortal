@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+</head>
+<body>
+  <div class="row" style="background-color: grey;" >
+    <div class="rounded float-left">
+      <img src="assets\Clg logo.jpg"  height="190px" width="350px" border = "10px">
+    </div>
+    <div class="rounded">
+      <img src="assets\Sanjivani Info.png"  height="190px" width="650px" border = "10px">
+    </div>
+    <div class="rounded" >
+      <img src="assets\SAP tempLogo.jpg"  height="190px" width="150px" border = "10px">
+    </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <div style="border: 5px;background-color: grey;"><h1>||</h1>
+         <h1>||</h1>
+         <h1>||</h1></div>
+    <div class="btn-toolbar float-right" role="toolbar" aria-label="Toolbar with button groups" >
+      <button class="btn btn-link mr-2 btn-lg" role="group" aria-label="First group"
+              data-toggle = "modal" style="border: 5px;background-color: grey;color: beige;"
+              data-target="#my_div"
+              [routerLink] = "['/Sign-in']">Sign-in </button>
+      <div style="border: 5px;"><h1>||</h1>
+           <h1>||</h1>
+           <h1>||</h1></div>
+      <button class="btn btn-link btn-lg mr-2" role="group" aria-label="Second group"
+       data-toggle = "modal" style="border: 5px;background-color: grey;color: beige;"
+       data-target="#my_div"
+       [routerLink] = "['/Register']">Register </button>
+       <div style="border: 5px;background-color: grey;"><h1>||</h1>
+        <h1>||</h1>
+        <h1>||</h1></div>
+    </div>
+  </div>
+  <marquee behavior="scroll" class="bg-warning" scrollamount="12" >
+    <h6 style="color: #8B0000;">Fill the news here <span class="badge blink badge-pill">New</span> </h6>
+  </marquee>
+  <br>
+  <div class="container mt-2 row">
+    <div class="card border-primary col-3" style="width: 350px;">
+      <div class="card-body">
+          <p class="h2 card-title" style="background-color: rgb(236, 45, 45) ;">Notifications</p>
+          <p class="card-text">No new notifications yet!!</p>
+      </div>
+    </div>
+    <div class="col-6">
+    <h3 style="text-align: center;">Know Your Modules :</h3>
+    <div class="container m-auto " style="margin: auto; align-items: center;">
+      <p class="justify-center">
+        <button class="btn btn-md btn-outline-dark"
+                data-toggle = "collapse"
+                data-target = "#ABAP"> ABAP </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button class="btn btn-md btn-outline-dark"
+                data-toggle = "collapse"
+                data-target = "#MM">  MM  </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button class="btn btn-md btn-outline-dark"
+                data-toggle = "collapse"
+                data-target = "#PP">  PP  </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button class="btn btn-md btn-outline-dark"
+                data-toggle = "collapse"
+                data-target = "#SD">  SD  </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button class="btn btn-md btn-outline-dark"
+                data-toggle = "collapse"
+                data-target = "#HR-HCM">HR/HCM</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button class="btn btn-md btn-outline-dark"
+                data-toggle = "collapse"
+                data-target = "#FI-CO"> FI/CO</button>
+    </p>
+
+        <div class="col">
+            <div class="collapse multi-collapse" id = "ABAP" style="border: 10;">
+              <img src = "assets\ABAP.jpeg" class="card-img-top">
+                <div class="card card-body">
+                    <h1>ABAP</h1> <br> ABAP (Advanced Business Application Programming) is the primary programming language supported on the SAP NetWeaver ABAP application server platform and applications that run on it, such as SAP ERP (formerly R/3), S/4HANA and CRM.
+                    SAP uses ABAP to implement its own applications on the NetWeaver ABAP platform, and SAP customers use ABAP to modify the functionality of SAP applications or build their own on the NetWeaver ABAP platform.
+                    ABAP is the oldest and, likely, the most widely used of SAP's four major application platforms, which also includes SAP NetWeaver Java, SAP HANA and SAP Cloud Platform. ABAP continues to be an important part of SAP's technology stack.
+                </div>
+            </div>
+        </div>
+        <div class="col">
+          <div class="collapse multi-collapse" id = "MM">
+            <img src = "assets\MM.jpeg" class="card-img-top">
+              <div class="card card-body">
+                <h1>MM</h1> <br> SAP MM (Material Management) covers all tasks within the supply chain; including consumption based planning, purchasing, vendor evaluation and invoice verification.
+                It also includes inventory, production planning, and warehouse management.SAP MM is used by many big or small manufacturing, retail and other organizations, for the efficient management of raw materials and consumables.
+                Material Management as a process ensures no shortage of materials or any gaps in the supply chain process of the organization.
+                SAP MM speeds up the procurement and material management activities, making the business run smoothly with complete time and cost efficiency.
+                It deals with managing the materials (products and/or services) and resources of an organization with the aim of accelerating productivity and reducing costs.
+                At the same time, SAP MM is quite versatile to accommodate changes that are frequent in any business environment.
+                Post attending our MM training, you can proceed ahead to become a SAP Certified Application Associate - Procurement with SAP ERP 6.0
+              </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="collapse multi-collapse" id = "PP">
+            <img src = "assets\PP.jpeg" class="card-img-top">
+              <div class="card card-body">
+                  <h1>PP</h1> <br> Production planning is the planning of production and manufacturing modules in a company or industry.
+                  It utilizes the resource allocation of activities of employees, materials and production capacity, in order to serve different customers.
+                  Different types of production methods, such as single item manufacturing, batch production, mass production, continuous production etc.
+                   have their own type of production planning. Production planning can be combined with production control into production planning and control,
+                   or it can be combined with enterprise resource planning.
+              </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="collapse multi-collapse" id = "SD">
+            <img src = "assets\SD.jpeg" class="card-img-top">
+              <div class="card card-body">
+                  <h1>SD</h1> <br> SAP Sales and Distribution is one of the key components of SAP ERP system and is used to manage shipping, billing, selling and transportation of products and services in an organization.
+                  SAP Sales and Distribution module is a part of SAP Logistics module that manages customer relationship starting from raising a quotation to sales order and billing of the product or service. This module is closely integrated with other modules like SAP Material Management and PP.
+              </div>
+          </div>
+      </div>
+      <div class="col">
+        <div class="collapse multi-collapse" id = "HR-HCM">
+          <img src = "assets\HR-HCM.jpeg" class="card-img-top">
+            <div class="card card-body">
+                <h1>HR/HCM</h1> <br> SAP Human Capital Management (SAP HCM) is one of the key modules in SAP and is also called SAP Human Resource (HR) or SAP Human Resource Management System (SAP HRMS). SAP HCM contains many submodules and all these modules are integrated with each other.
+                The key modules are : 1] Organizational Management 2] Time Management 3] Personnel Administration 4] Payroll 5] Recruitment 6] Training and Event Management 7] Travel Management
+            </div>
+        </div>
+    </div>
+
+        <div class="col">
+            <div class="collapse multi-collapse" id = "FI-CO">
+              <img src = "assets\FI-CO.jpeg" class="card-img-top">
+                <div class="card card-body">
+                    <h1>FI/CO</h1> <br> SAP FI stands for Financial Accounting and it is one of important modules of SAP ERP. It is used to store the financial data of an organization. SAP FI helps to analyze the financial conditions of a company in the market. It can integrate with other SAP modules like SAP SD, SAP PP, SAP MM, SAP SCM, etc.
+                    SAP FI comprises of the following sub-components :
+                    1] Finance Accounting General Ledger.
+                    2] Finance Accounting Accounts Receivable and Payable.
+                    3] Finance Accounting Asset Accounting.
+                    4] Finance Accounting Bank Accounting.
+                    5] Finance Accounting Travel Management.
+                    6] Finance Accounting Fund Management.
+                    7] Finance Accounting Legal Consolidation.
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div class="col-3">
+
+  </div>
+</div>
+</body>
+
+
+
+<router-outlet></router-outlet>

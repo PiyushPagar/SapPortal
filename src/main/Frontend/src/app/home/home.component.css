@@ -1,0 +1,13 @@
+.blink
+{
+  animation: blinking 0.9s infinite;
+  background-color: red;
+}
+@keyframes blinking
+{
+  0%{color: blue;background-color: orange;}
+  75%{color:yellow;background-color: black;}
+}
+img {
+  border: 5px solid #555;
+}

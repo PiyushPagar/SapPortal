@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAP Portal</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+</head>
+<body>
+
+  <!--
+  <form>
+
+    <!--Username
+    <div class="form-group row">
+      <div class="col-2"></div>
+      <label class="col-2" align="center">Username</label>
+      <div class = "col-5">
+          <input type="text" class="form-control"  placeholder="Enter Username">
+      </div>
+  </div>
+  <!--Email
+  <div class="form-group row">
+    <div class="col-2"></div>
+      <label class="col-2 "align="center">Email</label>
+      <div class="col-5">
+          <div class="input-group">
+              <input type="email" class="form-control" placeholder=" Enter email">
+          </div>
+      </div>
+  </div>
+  <!--Password
+  <div class="form-group row">
+    <div class="col-2"></div>
+      <label class="col-2 "align="center">Password</label>
+      <div class="col-5">
+          <input type="password" class="form-control" placeholder="Enter Password">
+      </div>
+  </div>
+  </form>-->
+  <div id = "my_div"
+  class="modal fade"
+  data-keyboard = "false"
+  data-backdrop = "static"
+  tabindex="-1">
+
+ <div class="modal-dialog
+             modal-sm
+             ">
+     <div class="modal-content">
+         <div class="modal-header" style="background-color: yellow;">
+             <h5 class="modal-title " > Login </h5>
+              <button class="close" data-dismiss = "modal">
+                <span>&times;</span>
+            </button>
+         </div>
+         <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label class="control-label">Email</label>
+              <input type="email"
+                     class="form-control"
+                     placeholder="Enter Email">
+          </div>
+
+          <div class="form-group">
+              <label class="control-label">Password</label>
+              <input type="password"
+                     class="form-control"
+                     placeholder="Enter Password">
+          </div>
+          <div>
+          <button class="btn btn-secondary btn-sm " [routerLink] = "['/Register']" data-dismiss="modal">Register</button>
+          <button class="btn btn-danger btn-sm float-right" [routerLink] = "['/Register']" data-dismiss="modal">Forgot password</button>
+          </div>
+          </form>
+         </div>
+         <div class="modal-footer">
+             <button class="btn btn-success btn-lg" [routerLink] = "['/Login']" data-dismiss="modal">Login</button>
+         </div>
+        </div>
+</div>
+</div>
+</body>
+<router-outlet></router-outlet>
+</html>
+
