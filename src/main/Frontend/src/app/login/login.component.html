@@ -47,10 +47,10 @@
   tabindex="-1">
 
  <div class="modal-dialog
-             modal-sm
+             modal-lg
              ">
      <div class="modal-content">
-         <div class="modal-header" style="background-color: yellow;">
+         <div class="modal-header" style="background-color: rgb(254, 108, 11);">
              <h5 class="modal-title " > Login </h5>
               <button class="close" data-dismiss = "modal">
                 <span>&times;</span>
@@ -78,7 +78,8 @@
           </form>
          </div>
          <div class="modal-footer">
-             <button class="btn btn-success btn-lg" [routerLink] = "['/Login']" data-dismiss="modal">Login</button>
+             <button class="btn btn-success btn-lg" (click)="btnClick();" data-dismiss="modal" >Login</button>
+
          </div>
         </div>
 </div>

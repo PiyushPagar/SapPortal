@@ -1,0 +1,27 @@
+.bg-img{
+  background-image: url("../../assets/College.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container{
+  position: absolute;
+  right: 0;
+  margin: 10px;
+  max-width: 1500px;
+  padding: 16px;
+  background-color: rgb(13, 1, 1);
+}
+
+.btn:hover {
+  opacity: 1;
+}
+* {
+  box-sizing: border-box;
+}
+.bg-one{
+  backdrop-filter: blur(10px);
+}

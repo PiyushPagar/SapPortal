@@ -1,21 +1,190 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME</title>
-</head>
-<body>
-  <div class="row" style="background-color: grey;" >
+
+   <!--<div>
+    <img src="assets\Logo2.jpeg"  height="200px" width=100% class="m-auto">
+  </div>
+
+    <div class="brand"><img src="assets\SAP tempLogo.jpg"  height="80px" width="80px" border = "2px" ></div>
+    <nav>
+        <ul>
+
+          <li><button class="btn btn-link"
+                data-toggle = "collapse" style="border: 5px;color: rgb(249, 244, 244); background-color: rgb(2, 30, 81);"
+                data-target = "#ABAP"> ABAP </button>
+          </li>
+          <li><button class="btn btn-link"
+            data-toggle = "collapse" style="border: 5px;color: rgb(249, 244, 244); background-color: rgb(2, 30, 81);"
+            data-target = "#MM"> MM </button>
+          </li>
+          <li><button class="btn btn-link"
+            data-toggle = "collapse" style="border: 5px;color: rgb(249, 244, 244); background-color: rgb(2, 30, 81);"
+            data-target = "#SD"> SD </button>
+          </li>
+          <li><button class="btn btn-link"
+            data-toggle = "collapse" style="border: 5px;color: rgb(249, 244, 244); background-color: rgb(2, 30, 81);"
+            data-target = "#PP"> PP </button>
+          </li>
+          <li><button class="btn btn-link"
+            data-toggle = "collapse" style="border: 5px;color: rgb(249, 244, 244); background-color: rgb(2, 30, 81);"
+            data-target = "#HR-HCM"> HR-HCM </button>
+          </li>
+          <li><button class="btn btn-link"
+            data-toggle = "collapse" style="border: 5px;color: rgb(249, 244, 244); background-color: rgb(2, 30, 81);"
+            data-target = "#FI-CO"> FI-CO </button>
+          </li>
+          <li></li>
+          <li></li>
+            <li><button class="btn btn-link btn-outline-warning mr-2 btn-md rounded "
+              data-toggle = "modal" style="color: rgb(2, 86, 9);"
+              data-target="#my_div"
+              [routerLink] = "['/Sign-in']">Sign-in </button></li>
+            <li> <button class="btn btn-link mr-2 btn-outline-warning btn-md rounded"
+              data-toggle = "modal" style="color: rgb(3, 107, 40);"
+              data-target="#my_div"
+              [routerLink] = "['/Register']">Register </button></li>
+        </ul>
+    </nav>
+</header>
+---------------------------------------------------------------------------------------------------------------------------------->
+<header id="header" class="fixed-top d-flex align-items-center header-transparent">
+  <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+    <div class="logo me-auto">
+      <h1><a href="#"><img src="assets\Clg logo.jpg" width="100" height="100" alt=""></a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+    </div>
+    <nav id="navbar" class="navbar order-last order-lg-0">
+      <ul>
+
+        <li><button class="btn btn-link"
+              data-toggle = "collapse" style="border: 5px;color: rgb(249, 244, 244); background-color: rgb(2, 30, 81);"
+              data-target = "#ABAP"> ABAP </button>
+        </li>
+        <li><button class="btn btn-link"
+          data-toggle = "collapse" style="border: 5px;color: rgb(249, 244, 244); background-color: rgb(2, 30, 81);"
+          data-target = "#MM"> MM </button>
+        </li>
+        <li><button class="btn btn-link"
+          data-toggle = "collapse" style="border: 5px;color: rgb(249, 244, 244); background-color: rgb(2, 30, 81);"
+          data-target = "#SD"> SD </button>
+        </li>
+        <li><button class="btn btn-link"
+          data-toggle = "collapse" style="border: 5px;color: rgb(249, 244, 244); background-color: rgb(2, 30, 81);"
+          data-target = "#PP"> PP </button>
+        </li>
+        <li><button class="btn btn-link btn-md"
+          data-toggle = "collapse" style="border: 5px;color: rgb(249, 244, 244); background-color: rgb(2, 30, 81);"
+          data-target = "#HR-HCM"> HR-HCM </button>
+        </li>
+        <li><button class="btn btn-link btn-md"
+          data-toggle = "collapse" style="border: 5px;color: rgb(249, 244, 244); background-color: rgb(2, 30, 81);"
+          data-target = "#FI-CO"> FI-CO </button>
+        </li>
+        <li></li>
+        <li></li>
+          <li><button class="btn btn-link btn-outline-warning mr-2 btn-lg rounded "
+            data-toggle = "modal" style="color: rgb(254, 253, 253);"
+            data-target="#my_div"
+            [routerLink] = "['/Sign-in']">Sign-in </button></li>
+          <li> <button class="btn btn-link mr-2 btn-outline-warning btn-lg rounded"
+            data-toggle = "modal" style="color: rgb(254, 253, 253);"
+            data-target="#my_div"
+            [routerLink] = "['/Register']">Register </button></li>
+      </ul>
+  </nav>
+
+
+    <!--<a href="#book-a-table" class="book-a-table-btn scrollto">Book a table</a>-->
+
+  </div>
+
+</header><!-- End Header -->
+<!-- ======= Hero Section ======= -->
+<section id="hero">
+  <div class="hero-container">
+    <div id="heroCarousel" data-interval="5000" class="carousel slide carousel-fade" data-ride="carousel" data-touch="false">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators">
+        <li data-target = "#heroCarousel" data-slide-to = "0" class = "active"></li>
+                <li data-target = "#heroCarousel" data-slide-to = "1" ></li>
+                <li data-target = "#heroCarousel" data-slide-to = "2" ></li>
+      </ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(../../assets/College.jpg);">
+          <div class="carousel-container">
+            <div class="carousel-content">
+              <h2 class="animate__animated animate__fadeInDown"><span>Sanjivani College of Engineering</span> </h2><br><br><br><br>
+              <h3 class="animate__animated animate__fadeInUp"><strong> Department of SAP</strong></h3>
+              <h3 class="animate__animated animate__fadeInUp"><strong>SAP courses at highly subsidised rate at College Campus.</strong></h3>
+              <h3 class="animate__animated animate__fadeInUp"><strong>Edge over to other student from other colleges/Universities.</strong></h3>
+
+              <div>
+               </div>
+            </div>
+          </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(../../assets/College.jpg);">
+          <div class="carousel-container">
+            <div class="carousel-content">
+              <h2 class="animate__animated animate__fadeInDown"><span>Sanjivani College of Engineering</span> </h2><br><br><br><br>
+              <h3 class="animate__animated animate__fadeInUp"><strong>Department of SAP</strong></h3>
+              <h3 class="animate__animated animate__fadeInUp"><strong>All above courses are available at very affordable fee</strong></h3>
+              <h3 class="animate__animated animate__fadeInUp"><strong> Along with comfortable payment options such as online payment,instalment payment.</strong></h3>
+
+              <div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url(../../assets/College.jpg);">
+          <div class="carousel-container">
+            <div class="carousel-content">
+              <h2 class="animate__animated animate__fadeInDown"><span>Sanjivani College of Engineering</span> </h2><br><br><br><br>
+              <h3 class="animate__animated animate__fadeInUp"><strong>Department of SAP</strong></h3>
+              <h3 class="animate__animated animate__fadeInUp"><strong>Assitance For Global Certification Exam will be provided.</strong></h3>
+              <h3 class="animate__animated animate__fadeInUp"><strong>So don't miss the chance,Hurry up and Join us.</strong></h3>
+
+
+              <div>
+                   </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon " aria-hidden="true">
+          Prev
+        </span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon " aria-hidden="true">
+          Next
+        </span>
+      </a>
+
+    </div>
+  </div>
+</section><!-- End Hero -->
+
+  <!--<div class="row" style="background-color: grey;" >
     <div class="rounded float-left">
-      <img src="assets\Clg logo.jpg"  height="190px" width="350px" border = "10px">
+      <img src="assets\Clg logo.jpg"  height="190px" width="350px" border = "10px" >
     </div>
     <div class="rounded">
-      <img src="assets\Sanjivani Info.png"  height="190px" width="650px" border = "10px">
+      <img src="assets\Sanjivani Info.png"  height="190px" width="650px" border = "10px" >
     </div>
     <div class="rounded" >
-      <img src="assets\SAP tempLogo.jpg"  height="190px" width="150px" border = "10px">
+      <img src="assets\SAP tempLogo.jpg"  height="190px" width="150px" border = "10px" >
     </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <div style="border: 5px;background-color: grey;"><h1>||</h1>
          <h1>||</h1>
@@ -36,45 +205,78 @@
         <h1>||</h1>
         <h1>||</h1></div>
     </div>
-  </div>
+  </div>-->
   <marquee behavior="scroll" class="bg-warning" scrollamount="12" >
     <h6 style="color: #8B0000;">Fill the news here <span class="badge blink badge-pill">New</span> </h6>
   </marquee>
   <br>
-  <div class="container mt-2 row">
-    <div class="card border-primary col-3" style="width: 350px;">
+
+  <div >
+    <!--<div class="card border-primary col" style="width: 350px;">
       <div class="card-body">
           <p class="h2 card-title" style="background-color: rgb(236, 45, 45) ;">Notifications</p>
           <p class="card-text">No new notifications yet!!</p>
       </div>
     </div>
     <div class="col-6">
-    <h3 style="text-align: center;">Know Your Modules :</h3>
-    <div class="container m-auto " style="margin: auto; align-items: center;">
-      <p class="justify-center">
-        <button class="btn btn-md btn-outline-dark"
+    <h3 style="text-align: center;">Know Your Modules :</h3>-->
+    <div class="container m-auto accordian" style="margin: auto; align-items: center;"  id = "parentDiv">
+      <!--<div>
+        <button class="btn btn-lg btn-outline-dark btn-link"
                 data-toggle = "collapse"
                 data-target = "#ABAP"> ABAP </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <button class="btn btn-md btn-outline-dark"
+        <button class="btn btn-lg btn-outline-dark btn-link"
                 data-toggle = "collapse"
                 data-target = "#MM">  MM  </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <button class="btn btn-md btn-outline-dark"
+        <button class="btn btn-lg btn-outline-dark btn-link"
                 data-toggle = "collapse"
                 data-target = "#PP">  PP  </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <button class="btn btn-md btn-outline-dark"
+        <button class="btn btn-lg btn-outline-dark btn-link"
                 data-toggle = "collapse"
                 data-target = "#SD">  SD  </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <button class="btn btn-md btn-outline-dark"
+        <button class="btn btn-lg btn-outline-dark btn-link"
                 data-toggle = "collapse"
                 data-target = "#HR-HCM">HR/HCM</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <button class="btn btn-md btn-outline-dark"
+        <button class="btn btn-lg btn-outline-dark btn-link"
                 data-toggle = "collapse"
                 data-target = "#FI-CO"> FI/CO</button>
-    </p>
+      </div>
+      <ul class="nav" style="align-content: center;">
+        <li class="nav-item">
+          <button class="btn btn-lg btn-outline-dark btn-link"
+                data-toggle = "collapse"
+                data-target = "#ABAP"> ABAP </button>
+        </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <li class="nav-item">
+          <button class="btn btn-lg btn-outline-dark btn-link"
+                data-toggle = "collapse"
+                data-target = "#MM">  MM  </button>
+        </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <li class="nav-item">
+          <button class="btn btn-lg btn-outline-dark btn-link"
+                data-toggle = "collapse"
+                data-target = "#PP">  PP  </button>
+        </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <li class="nav-item">
+          <button class="btn btn-lg btn-outline-dark btn-link"
+                data-toggle = "collapse"
+                data-target = "#SD">  SD  </button>
+        </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <li class="nav-item">
+          <button class="btn btn-lg btn-outline-dark btn-link"
+                data-toggle = "collapse"
+                data-target = "#HR-HCM">HR/HCM</button>
+        </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <li class="nav-item">
+          <button class="btn btn-lg btn-outline-dark btn-link"
+                data-toggle = "collapse"
+                data-target = "#FI-CO"> FI/CO</button>
+        </li>
+      </ul>-->
 
-        <div class="col">
-            <div class="collapse multi-collapse" id = "ABAP" style="border: 10;">
-              <img src = "assets\ABAP.jpeg" class="card-img-top">
+        <div class="container">
+            <div class="collapse multi-collapse" id = "ABAP" style="border: 10;" data-parent = "#parentDiv">
+              <img src = "assets\ABAP.jpeg" class="card-img-top" height="250px" width=100% border = "2px">
                 <div class="card card-body">
                     <h1>ABAP</h1> <br> ABAP (Advanced Business Application Programming) is the primary programming language supported on the SAP NetWeaver ABAP application server platform and applications that run on it, such as SAP ERP (formerly R/3), S/4HANA and CRM.
                     SAP uses ABAP to implement its own applications on the NetWeaver ABAP platform, and SAP customers use ABAP to modify the functionality of SAP applications or build their own on the NetWeaver ABAP platform.
@@ -83,8 +285,8 @@
             </div>
         </div>
         <div class="col">
-          <div class="collapse multi-collapse" id = "MM">
-            <img src = "assets\MM.jpeg" class="card-img-top">
+          <div class="collapse multi-collapse" id = "MM" data-parent = "#parentDiv">
+            <img src = "assets\MM.jpeg" class="card-img-top" height="250px" width=100% border = "2px">
               <div class="card card-body">
                 <h1>MM</h1> <br> SAP MM (Material Management) covers all tasks within the supply chain; including consumption based planning, purchasing, vendor evaluation and invoice verification.
                 It also includes inventory, production planning, and warehouse management.SAP MM is used by many big or small manufacturing, retail and other organizations, for the efficient management of raw materials and consumables.
@@ -97,8 +299,8 @@
           </div>
         </div>
         <div class="col">
-          <div class="collapse multi-collapse" id = "PP">
-            <img src = "assets\PP.jpeg" class="card-img-top">
+          <div class="collapse multi-collapse" id = "PP" data-parent = "#parentDiv">
+            <img src = "assets\PP.jpeg" class="card-img-top" height="250px" width=100% border = "2px">
               <div class="card card-body">
                   <h1>PP</h1> <br> Production planning is the planning of production and manufacturing modules in a company or industry.
                   It utilizes the resource allocation of activities of employees, materials and production capacity, in order to serve different customers.
@@ -109,8 +311,8 @@
           </div>
         </div>
         <div class="col">
-          <div class="collapse multi-collapse" id = "SD">
-            <img src = "assets\SD.jpeg" class="card-img-top">
+          <div class="collapse multi-collapse" id = "SD" data-parent = "#parentDiv">
+            <img src = "assets\SD.jpeg" class="card-img-top" height="250px" width=100% border = "2px">
               <div class="card card-body">
                   <h1>SD</h1> <br> SAP Sales and Distribution is one of the key components of SAP ERP system and is used to manage shipping, billing, selling and transportation of products and services in an organization.
                   SAP Sales and Distribution module is a part of SAP Logistics module that manages customer relationship starting from raising a quotation to sales order and billing of the product or service. This module is closely integrated with other modules like SAP Material Management and PP.
@@ -118,8 +320,8 @@
           </div>
       </div>
       <div class="col">
-        <div class="collapse multi-collapse" id = "HR-HCM">
-          <img src = "assets\HR-HCM.jpeg" class="card-img-top">
+        <div class="collapse multi-collapse" id = "HR-HCM" data-parent = "#parentDiv">
+          <img src = "assets\HR-HCM.jpeg" class="card-img-top" height="250px" width=100% border = "2px">
             <div class="card card-body">
                 <h1>HR/HCM</h1> <br> SAP Human Capital Management (SAP HCM) is one of the key modules in SAP and is also called SAP Human Resource (HR) or SAP Human Resource Management System (SAP HRMS). SAP HCM contains many submodules and all these modules are integrated with each other.
                 The key modules are : 1] Organizational Management 2] Time Management 3] Personnel Administration 4] Payroll 5] Recruitment 6] Training and Event Management 7] Travel Management
@@ -128,8 +330,8 @@
     </div>
 
         <div class="col">
-            <div class="collapse multi-collapse" id = "FI-CO">
-              <img src = "assets\FI-CO.jpeg" class="card-img-top">
+            <div class="collapse multi-collapse" id = "FI-CO" data-parent = "#parentDiv">
+              <img src = "assets\FI-CO.jpeg" class="card-img-top" height="250px" width=100% border = "2px">
                 <div class="card card-body">
                     <h1>FI/CO</h1> <br> SAP FI stands for Financial Accounting and it is one of important modules of SAP ERP. It is used to store the financial data of an organization. SAP FI helps to analyze the financial conditions of a company in the market. It can integrate with other SAP modules like SAP SD, SAP PP, SAP MM, SAP SCM, etc.
                     SAP FI comprises of the following sub-components :
@@ -143,14 +345,143 @@
                 </div>
             </div>
         </div>
+    <!--</div>
+  </div>
+  <div class="card border-primary col" style="width: 350px;">
+    <div class="card-body">
+        <p class="h2 card-title" style="background-color: rgb(236, 45, 45) ;">Notifications</p>
+        <p class="card-text">No new notifications yet!!</p>
     </div>
-  </div>
-  <div class="col-3">
-
-  </div>
+  </div>-->
 </div>
-</body>
+</div>
+<div class="mt-2 row">
+  <div class="col-6 "><h1>About Sanjivani</h1><br>Sanjivani College of Engineering (An Autonomous Institute), Kopargaon is one among the premier technical institutes in Maharashtra state in the un-aided sector. Established in 1983 by the Sanjivani Rural Educational Society under the charismatic leadership of Shri. Shankarrao G. Kolhe, the Institute had its vision for social transformation and , upliftment of rural masses through education, training and research.</div>
+  <div class="col-6 "><h1>About SAP</h1><br>abcdefghijklmnopqrstuvwxyz</div>
+</div>
+<br>
+<!-- Footer -->
+<div
+class="text-center text-lg-start text-white footer"
+style="background-color: #5a899d">
+<!-- Grid container -->
+<div class="container p-2 pb-0 ">
+<!--Grid row-->
+<div class="row">
+<!-- Grid column -->
+<div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+  <img src="assets\Clg logo.jpg"  height="80px" width="80px" border = "2px" >
+  <p>
+    Sanjivani College of Engineering,
+    Kopargaon.
+  </p>
+</div>
+<!-- Grid column -->
+
+<hr class="w-100 clearfix d-md-none" />
+
+<!-- Grid column -->
+<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+  <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+  <p>
+    <a class="text-white">MDBootstrap</a>
+  </p>
+  <p>
+    <a class="text-white">MDWordPress</a>
+  </p>
+  <p>
+    <a class="text-white">BrandFlow</a>
+  </p>
+  <p>
+    <a class="text-white">Bootstrap Angular</a>
+  </p>
+</div>
+<!-- Grid column -->
+
+<hr class="w-100 clearfix d-md-none" />
+
+<!-- Grid column -->
+<hr class="w-100 clearfix d-md-none" />
+
+<!-- Grid column -->
+<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+  <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+  <p><i class="fa fa-home mr-3"></i> New York, NY 10012, US</p>
+  <p><i class="fa fa-envelope mr-3"></i> info@gmail.com</p>
+  <p><i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
+  <p><i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
+</div>
+<!-- Grid column -->
+
+<!-- Grid column -->
+<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+  <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
+
+  <!-- Facebook -->
+  <a
+     class="btn btn-primary btn-floating m-1"
+     style="background-color: #3b5998"
+     href="https://twitter.com/Sanjivani_Group?s=20&t=7SEUdxMHzaB3ORAugVGHBg"
+     role="button"
+     ><i class="fa fa-twitter"></i
+    ></a>
+
+  <!-- Twitter -->
+  <a
+     class="btn btn-primary btn-floating m-1"
+     style="background-color: #55acee"
+     href="https://www.facebook.com/SanjivaniGroupofInstitutes/?hc_ref=ARRJJvrgX88QQFcB5mIqjBADKBF6tmYbL1CFMIrczZltEHttX8RvtliTe4NClzZicCg&ref=nf_target&__xts__[0]=68.ARDhgsKI_djDgqATo93jhY43B7akrkOgyvFnRdBzLNUmXqXY4LZTj1l6nAKhNGOGinY83VOA5pBdVF-MmFJNDpWmyeQELpwnN40Q2CtI6IwK-yt2udPehvu1tZ1tAIB0IukefEAxIw1XMpBN6P_FYxXWQgmYxY9B5l6rPVqlojQS7_DfFIYq-YoXHWO64E05R8LFvAqLocVmw2voADu-lYSYGvD7i4ZOOohVvOwAwwQC1fcjOJckimN_8_o85kMjCkf8RolGzSZxrtMoi0-Amv47bdWkMTnMC7kaHwMa_3wKCIHiLDkNPA"
+     role="button"
+     ><i class="fa fa-facebook-f"></i
+    ></a>
+
+  <!-- Google
+  <a
+     class="btn btn-primary btn-floating m-1"
+     style="background-color: #dd4b39"
+     href="#!"
+     role="button"
+     ><i class="fa fa-google"></i
+    ></a>-->
+
+  <!-- Instagram -->
+  <a
+     class="btn btn-primary btn-floating m-1"
+     style="background-color: #ac2bac"
+     href="#!"
+     role="button"
+     ><i class="fa fa-instagram"></i
+    ></a>
+
+  <!-- Linkedin -->
+  <a
+     class="btn btn-primary btn-floating m-1"
+     style="background-color: #0082ca"
+     href="https://www.linkedin.com/in/sapsanjivani"
+     role="button"
+     ><i class="fa fa-linkedin"></i
+    ></a>
+</div>
+</div>
+<!--Grid row-->
+</div>
+<!-- Grid container -->
+
+<!-- Copyright -->
+<div
+class="text-center p-3"
+style="background-color: rgba(0, 0, 0, 0.2)">
+ Copyright:
+<a class="text-white" href="#">sanjivanicoe.org.in</a>
+</div>
+<!-- Copyright -->
+</div>
+<!-- Footer -->
+
+
 
 
 
 <router-outlet></router-outlet>
+
+
